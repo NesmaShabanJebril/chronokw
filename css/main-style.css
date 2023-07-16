@@ -1,0 +1,280 @@
+body{
+    overflow-x: hidden;
+      text-transform: capitalize;
+}
+.arabic{
+    direction: rtl;
+    text-align: right;
+}
+.pad-0{
+    padding: 0px;
+}
+ .btn{
+    margin-bottom: 20px;
+}
+header{
+    padding-top: 15px;
+}
+a,a:hover{
+    color:#000;
+    text-decoration: none;
+}
+.logo{
+ font-size: 20px;
+    font-weight: bolder;
+}
+.ul2{
+    display: none;
+}
+.ul1:hover .ul2{
+    display: block;
+}
+.ul1{
+    position: relative;
+}
+.ul2{
+    position: absolute;
+    right:0;
+    left:0;
+    top:0;
+    width: 100%;
+    margin-top:40px;
+    background-color: white;
+    border:1px solid lightgray;
+    z-index: 999;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.arabic .ul2{
+    direction: ltr;
+}
+.ul2 li{
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.ul2 li:hover {
+background:  #000;    
+}
+.ul2 li:hover a{
+color:  #fff;    
+}
+input[type=search],.sales{
+    background-color: rgba(245,245,245,1);
+        border: 1px solid rgba(245,245,245,1);
+    height: 50px;
+
+}
+.search{
+    position: absolute;
+    left:86%;
+    top:20;
+}
+.arabic .search{
+    left:15%;
+}
+span{
+    font-size: 12px;
+}
+.icon{
+display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    color:#fff;
+    border-radius: 50%; 
+    text-align: center;
+}
+.icon .svg-inline--fa {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.twiter{
+    background: skyblue;
+}
+.google{
+    background: red;
+}
+.facebook{
+    background: blue;
+    
+}
+.wifi{
+    background: orange;
+}
+.fa-shopping-bag{
+    font-size: 25px;
+}
+.dropdown-top-menu-list a{
+    padding: 10px;
+}
+
+.sidbar{
+	min-height:100%;
+    background-color:#fff;
+	position:absolute;
+	top:0;
+	right:-110%;
+    z-index: 999;
+}
+.sidbar1{
+	min-height:100%;
+    background-color:#fff;
+	position:absolute;
+	top:0;
+	left:-100%;
+    z-index: 999;
+}
+.hide{
+   display:none;
+}
+.active{
+	right:0%;
+	transition:.3s;
+}
+.active1{
+	left:0%;
+	transition:.3s;
+}
+.ul1 >a{
+    font-size: 18px;
+    font-weight: bold;
+}
+nav{
+    padding: 0px 20px;
+}
+
+/*end header */
+/* category */
+.category img{
+    min-height:50vh;
+    width: 100%;
+    position: relative;
+}
+.abs{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+      background-color: #10101030;
+    background-size: 100%;
+    padding: 20px;
+}
+.abs >a{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20%;
+    display: block;
+    position: relative;
+    color: #fff;
+}
+.abs >.a::after{
+      content: "";
+    height: 3px;
+    width:50px;
+    background:#000;
+    position: absolute;
+    top: 50;
+    right: 0;
+}
+.abs .btn{
+    border: 1px solid #000;
+    border-radius: 20px;
+     font-size: 18px;
+    display: inline-block;
+    margin-bottom: 30px;
+     background: #000;
+    color: #fff;
+}
+.abs h5{
+    color:#fff;
+}
+/* Latest Arrival */
+.pad{
+    padding: 30px 4%;
+}
+.card img{
+    margin-top: 20px;
+    height: 200px;
+}
+.dnone{
+    display: none;
+}
+.card:hover  .dnone{
+    display: block;
+}
+.card:hover .price{
+   display: none;
+}
+.card:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* footer */
+footer a{
+    color: #fff;
+    border-right: 1px solid #fff;
+    margin: 10px;
+}
+.arabic footer a{
+   border-left: 1px solid #fff;
+    border-right: none;
+}
+/* category */
+.img-category img{
+    width: 100%;
+    height: 200px;
+    
+}
+.abs-h1{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color:#fff;
+}
+.arabic .abs-h1{
+    right: 15%;
+}
+select{
+    padding: 10px;
+     background-color: rgba(245,245,245,1);
+        border: 1px solid rgba(245,245,245,1);
+}
+/* product */
+
+.product form{
+            border: 2px solid rgba(245,245,245,1);
+    padding: 50px;
+    border-radius: 10px;
+}
+.product .btn{
+    margin-left:30px;
+}
+.qty{
+        text-align: center;
+       background-color: rgba(245,245,245,1);
+        border: 1px solid rgba(245,245,245,1);
+    width: 50px;
+    height: 46px;
+    float: left;
+}
+.quantity{
+    border-radius: 10px;
+}
+.qty-adjust{
+    float: left;
+     text-align: center;
+        border: 1px solid rgba(245,245,245,1);
+    width: 30px;
+    height: 46px; 
+}
+.qty-adjust a{
+    display: block;
+   border: 1px solid rgba(245,245,245,1);
+    margin: 0px;
+    height: 22px;
+}
+
+.item2,.item3,.item4{
+    display: none;
+}
+ #b{width: 100%;
+        height: 60vh;}
